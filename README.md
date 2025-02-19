@@ -106,5 +106,5 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-- **Twitter**: [@yourhandle](https://twitter.com/shuku_omhlophe)
+- **𝕏**: [@shuku_omhlophe](https://x.com/shuku_omhlophe)
 
