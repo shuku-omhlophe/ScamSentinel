@@ -44,16 +44,16 @@ ScamSentinel is an AI-powered SaaS platform designed to help users detect fraudu
 ### 1️⃣ Clone the Repository
 
 ```sh
-git clone https://github.com/yourusername/scamsentinel.git
-cd scamsentinel
+git clone https://github.com/shuku-omhlophe/ScamSentinel.git
+cd ScamSentinel
 ```
 
 ### 2️⃣ Backend Setup (Django API)
 
 ```sh
 cd backend
-python3 -m venv crypto-scam-detector-env
-source crypto-scam-detector-env/bin/activate
+python3 -m ScamSentinel
+source ScamSentinel/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
@@ -106,6 +106,5 @@ This project is licensed under the MIT License.
 
 ## 📬 Contact
 
-- **Twitter**: [@yourhandle](https://twitter.com/yourhandle)
-- **Email**: [your@email.com](mailto\:your@email.com)
+- **Twitter**: [@yourhandle](https://twitter.com/shuku_omhlophe)
 
