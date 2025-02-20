@@ -1,0 +1,89 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background: #1e1e2f;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Card Layout */
+  .card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #444;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #222;
+    color: white;
+  }
+  
+  /* Buttons */
+  button {
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Status Colors */
+  .status-high {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .status-medium {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .status-low {
+    color: green;
+    font-weight: bold;
+  }
+  

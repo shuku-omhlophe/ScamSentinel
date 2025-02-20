@@ -1,0 +1,44 @@
+{
+    "scamReports": [
+      {
+        "id": 1,
+        "walletAddress": "0xabc123...def456",
+        "riskScore": 85,
+        "status": "High Risk",
+        "lastChecked": "2025-02-20T14:30:00Z"
+      },
+      {
+        "id": 2,
+        "walletAddress": "0x789xyz...654lmn",
+        "riskScore": 30,
+        "status": "Low Risk",
+        "lastChecked": "2025-02-19T10:15:00Z"
+      },
+      {
+        "id": 3,
+        "walletAddress": "0x111aaa...222bbb",
+        "riskScore": 60,
+        "status": "Medium Risk",
+        "lastChecked": "2025-02-18T08:45:00Z"
+      }
+    ],
+    "smartContractReports": [
+      {
+        "id": 101,
+        "contractAddress": "0xdeadbeef...cafebabe",
+        "riskScore": 95,
+        "status": "Critical Risk",
+        "issues": ["Reentrancy vulnerability", "Hardcoded owner"],
+        "lastChecked": "2025-02-20T12:00:00Z"
+      },
+      {
+        "id": 102,
+        "contractAddress": "0xfedcba...012345",
+        "riskScore": 45,
+        "status": "Moderate Risk",
+        "issues": ["Centralized control", "Unverified source code"],
+        "lastChecked": "2025-02-19T09:30:00Z"
+      }
+    ]
+  }
+  
